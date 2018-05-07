@@ -1,0 +1,103 @@
+.main-layout {
+display: block;
+
+}
+
+
+.main-text{
+	text-align: center;
+}
+
+.banner-section {
+	color: #FFFFFF;
+    background: #2a2a2a;
+    min-height: 30.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3.75rem;
+    padding-bottom: 1.625rem;
+    position: relative;
+
+}
+
+.banner-section .pic-container {
+	position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+} 
+
+
+.banner-section {
+	
+}
+
+
+
+
+
+.icon-links {
+	text-align: center;
+
+}
+
+.icon-container {
+    list-style-type: none;
+}
+
+.icon-buttons {
+	border: 1px solid ;
+	border-radius: 3px;
+	transition: all .5s;
+	padding: 6px 10px;
+	background-color: #fff;
+	color: #4CAF50;
+	font-size: 16px;
+	line-height: 3;
+	height: 57px;
+	margin: 9px;
+	word-wrap: break-word;
+	position: relative;
+
+	
+}
+
+.icon-buttons {
+	display: inline-block;
+	font-family: Arial;
+	padding: 0 10px 20px;
+	transition: all .5s;
+	width: 130px;
+	vertical-align: top;
+	text-align: center;
+}
+
+
+a:hover {
+	background-color: #28A745;
+	text-decoration: none;
+}
+
+.icon-shadows:hover {
+	text-shadow: 1px 1px 1px #000;
+}
+
+.form-inline {
+	justify-content: center;
+	margin: 50px;
+	padding: 25px;
+}
+
+.btn-success {
+    font-family: Arial;
+    width: 120px;
+    padding: 10px; 
+    margin: 10px; 
+}
